@@ -6,7 +6,7 @@ const PrivateRoute = ({ children }) => {
   if (token) {
     return children; 
   } else {
-    return <Navigate to="/auth/login" replace />;
+    return <Navigate to="/login" replace />;
   }
 };
 
